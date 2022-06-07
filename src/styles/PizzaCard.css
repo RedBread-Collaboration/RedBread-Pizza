@@ -1,0 +1,67 @@
+.Card_block {
+    width: calc(33.3% - 10px) ;
+    position: relative;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #fff;
+    backface-visibility: hidden;
+    transition-property: transforms;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    margin: 5px;
+
+}
+
+.Card_content {
+
+}
+
+.Card_image {
+    display: flex;
+    flex: 0 0 200px;
+    width: 100%;
+    justify-content: center;
+
+    /* position: relative; */
+
+}
+
+.Card_image img {
+
+    object-fit: contain;
+    /* height: 200%; */
+    display: flex;
+}
+
+.Pizza_name {
+    padding: 0 24px;
+    margin-bottom: 6px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pizza_name_h3{
+    margin-right: 12px;
+    flex-wrap: nowrap;
+}
+
+.Calories_info {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.Pizza_info {
+
+}
+
+@media(max-width: 1279px), (orientation:landscape) and (width: 1366px) and (height: 1024px) {
+    .Card_block {
+        width: calc(50% - 10px);
+    }
+}

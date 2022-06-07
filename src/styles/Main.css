@@ -1,0 +1,52 @@
+.Main_block {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.Video_block{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-self: center;
+}
+
+.video {
+    width: 60%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.Content_block {
+    width: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+    
+}
+
+.Cart {
+    width: 30%;
+    float: right;
+    margin-top: 85px;
+    position: sticky;
+    transition: top .5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.Menu_block {
+    width: 70%;
+    margin: -5px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Pizza_card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
